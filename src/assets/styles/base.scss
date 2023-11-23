@@ -1,0 +1,27 @@
+:root {
+  --white: #f9f9f9;
+  --black: #212121;
+}
+
+:root {
+  --color-background: var(--white);
+  --color-text: var(--black);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-family: 'Cabin', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
