@@ -1,6 +1,6 @@
 # Greenspark products
 
-This project uses [Vue 3 + Typescript](https://github.com/vuejs/create-vue) and [Pinia Store](https://pinia.vuejs.org/) for client side state managment. Component unit tests are written with [Testing Library Vue](https://testing-library.com/docs/vue-testing-library/intro/) and [Vitest](https://vitest.dev/).
+This project uses [Vue 3 + Typescript](https://github.com/vuejs/create-vue) and [Pinia Store](https://pinia.vuejs.org/) for client side state managment. Component unit tests are written with [Testing Library Vue](https://testing-library.com/docs/vue-testing-library/intro/) and [Vitest](https://vitest.dev/). Static file validation on pre-commit hook with [Husky](https://www.npmjs.com/package/husky) + [Lint Staged](https://www.npmjs.com/package/lint-staged), running base npm scripts to check for formatting, linting or type errors.
 
 ## Folder structure
 
