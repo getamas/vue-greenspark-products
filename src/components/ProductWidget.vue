@@ -66,13 +66,19 @@ const mainColor = computed(() => {
         />
       </div>
       <div class="product-widget-feature">
-        <span>Badge colour</span>
-        <ul class="product-widget-colors">
+        <span :id="`widget-color-${product.id}`">Badge colour</span>
+        <ul
+          class="product-widget-colors"
+          role="listbox"
+          :aria-labelledby="`widget-color-${product.id}`"
+        >
           <li
             v-for="(color, index) in colors"
             :key="index"
+            role="option"
             class="product-widget-color"
             :class="{ selected: product.selectedColor === color }"
+            :aria-selected="product.selectedColor === color"
             :style="{ backgroundColor: `var(--${color})` }"
             @click="store.setSelectedColor(product.id, color)"
           >
