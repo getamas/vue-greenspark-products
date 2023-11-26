@@ -1,18 +1,18 @@
 # Greenspark products
 
-This project uses Vue 3 + Typescript and [Pinia Store](https://pinia.vuejs.org/) for client side state managment. Component unit tests are written with [Testing Library Vue](https://testing-library.com/docs/vue-testing-library/intro/) and [Vitest](https://vitest.dev/).
+This project uses [Vue 3 + Typescript](https://github.com/vuejs/create-vue) and [Pinia Store](https://pinia.vuejs.org/) for client side state managment. Component unit tests are written with [Testing Library Vue](https://testing-library.com/docs/vue-testing-library/intro/) and [Vitest](https://vitest.dev/).
 
 ## Folder structure
 
 ```
 src
-|-- assets                    # Asset files used in the application
-   |-- styles                 # Global styles
-   |-- images                 # Image files
-|-- components                # Re-usable components for the entire app
-   | -- tests                 # Component unit tests
-|-- stores                    # Pinia store files
-|-- types                     # Typescript entities
+|-- assets           # Asset files used in the application
+   |-- styles        # Global styles
+   |-- images        # Image files
+|-- components       # Re-usable components for the entire app
+   | -- tests        # Component unit tests
+|-- stores           # Pinia store files
+|-- types            # Typescript entities
 ...
 ```
 
