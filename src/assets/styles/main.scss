@@ -1,1 +1,24 @@
 @import './base.scss';
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+a {
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.28px;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
